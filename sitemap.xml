@@ -3,112 +3,92 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/archives/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <loc>/portfolio/</loc>
+    <lastmod>2020-08-12T18:19:35+06:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-12T18:19:35+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/portfolio/recipe-app-ux-study/</loc>
+    <lastmod>2020-08-12T18:19:35+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/portfolio/ux-case-study-for-agriculture-app/</loc>
+    <lastmod>2020-08-12T12:13:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/portfolio/event-app-case-study/</loc>
+    <lastmod>2020-08-12T18:07:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/designer-conference-at-florida-2020/</loc>
+    <lastmod>2020-07-13T13:06:26+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/</loc>
+    <lastmod>2020-07-13T13:06:26+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/benjamin-franklins-thoughts-about-new-designers/</loc>
+    <lastmod>2020-07-13T12:49:27+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/portfolio/case-study-one/</loc>
+    <lastmod>2020-07-13T12:49:27+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/designers-thoughts-about-mobile-ui/</loc>
+    <lastmod>2020-07-13T12:49:27+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/how-to-become-acreative-designer/</loc>
+    <lastmod>2020-07-13T12:49:27+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/learning-from-experience/</loc>
+    <lastmod>2020-07-13T12:49:27+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/new-designers-limitations/</loc>
+    <lastmod>2020-07-13T12:49:27+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/things-you-must-know-as-a-designer/</loc>
+    <lastmod>2020-07-13T12:49:27+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/world-most-famous-app-developers-and-designers/</loc>
+    <lastmod>2020-07-13T12:49:27+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/you-must-know-this-before-becoming-a-designer/</loc>
+    <lastmod>2020-07-13T12:49:27+06:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/markdown-syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/privacy/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/rich-content/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/shortcodes/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/placeholder-text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/math-typesetting/</loc>
-    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/emoji/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/emoji-support/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/about/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/2015-07-23-r-rmarkdown/</loc>
+    <loc>/blog/2015-07-23-r-rmarkdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
@@ -133,7 +113,12 @@
   </url>
   
   <url>
-    <loc>/tags/index/</loc>
+    <loc>/tags/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/contact/</loc>
   </url>
   
 </urlset>
