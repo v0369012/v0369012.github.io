@@ -1,0 +1,37 @@
+@charset "UTF-8";
+div[data-color="green"] {
+  background-color: green;
+}
+
+div[data-color="red"] {
+  background-color: red;
+}
+
+div[data-color="yellow"] {
+  background-color: yellow;
+}
+div[data-color="yellow"]::before {
+  content: "你好" attr(data-size);
+}
+div[data-color="yellow"]::after {
+  content: "不好";
+}
+
+.div_all::before {
+  content: "這是前面的";
+}
+.div_all::after {
+  content: "這是後面的";
+}
+
+.div1 {
+  background-color: green;
+}
+
+.div2 {
+  background-color: red;
+}
+
+.div3 {
+  background-color: yellow;
+}
