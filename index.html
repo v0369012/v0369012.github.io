@@ -2,85 +2,74 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - SVG-animation</title>
-  <link rel="stylesheet" href="./style.css">
+  <title>CodePen - Resume-Chinese</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Ubuntu'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css'>
+<link rel='stylesheet' href='https://s.plurk.com/0e89357f530f0a843c68440a020d4eb5.css'><link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<svg id="pic1" viewbox=" -50 -50 100 100">
-  <line x1="-20" y1="0" x2="20" y2="0"></line>
-  <line x1="0" y1="-20" x2="0" y2="20"></line>
-  <circle cx="0" cy="0" r="10">
-    <animate attributeName="cy" dur="2s" values="0;20;0" repeatCount="indefinite"> </animate>
-  </circle>
-</svg>
-<svg id="pic2" viewbox=" -50 -50 100 100">
-  <circle cx="0" cy="0" r="10"></circle>
-  <g>
-    <line x1="-20" y1="0" x2="20" y2="0"></line>
-    <line x1="0" y1="-20" x2="0" y2="20"></line>
-    <rect x="-20" y="-20" width="40" height="40"></rect>
-    <animateTransform attributeName="transform" type="rotate" dur="2s" values="0;360" repeatCount="indefinite"></animateTransform>
-  </g>
-</svg>
-<svg id="pic3" viiewbox="0 0 200 200">
-  <circle cx="0" cy="40" r="3">
-    <animate attributeName="cy" dur="2s" values="50;60;50" repeatCount="indefinite"></animate>
-  </circle>
-  <circle cx="50" cy="60" r="3">
-    <animate attributeName="cy" dur="2s" values="50;60;50" repeatCount="indefinite"></animate>
-  </circle>
-  <circle cx="100" cy="80" r="3">
-    <animate attributeName="cy" dur="2s" values="50;60;50" repeatCount="indefinite"></animate>
-  </circle>
-  <circle cx="150" cy="20" r="3">
-    <animate attributeName="cy" dur="2s" values="50;60;50" repeatCount="indefinite"></animate>
-  </circle>
-  <circle cx="200" cy="50" r="3">
-    <animate attributeName="cy" dur="2s" values="50;60;50" repeatCount="indefinite"></animate>
-  </circle>
-  <polyline points="0,40 50,60 100,80 150,20 200,50">
-    <animate attributeName="points" dur="2s" values="0,40 50,60 100,80 150,20 200,50;0,50 50,70 100,90 150,20 200,50;0,40 50,60 100,80 150,20 200,50;0,40 50,60 100,80 150,20 200,50" repeatCount="indefinite"></animate>
-  </polyline>
-</svg>
-<svg id="pic4" viewbox="0 0 200 200">
-  <rect x="0" y="0" width="20" height="100">
-    <animate attributeName="height" begin="0s" dur="2s" values="100;200;100" repeatCount="indefinite"></animate>
-  </rect>
-  <rect x="30" y="0" width="20" height="120">
-    <animate attributeName="height" begin="-0.3s" dur="2s" values="100;200;100" repeatCount="indefinite"></animate>
-  </rect>
-  <rect x="60" y="0" width="20" height="140">
-    <animate attributeName="height" begin="-0.6s" dur="2s" values="100;200;100" repeatCount="indefinite"></animate>
-  </rect>
-  <rect x="90" y="0" width="20" height="160">
-    <animate attributeName="height" begin="-0.9s" dur="2s" values="100;200;100" repeatCount="indefinite"></animate>
-  </rect>
-  <rect x="120" y="0" width="20" height="120">
-    <animate attributeName="height" begin="-1.2s" dur="2s" values="100;200;100" repeatCount="indefinite"></animate>
-  </rect>
-  <rect x="150" y="0" width="20" height="80">
-    <animate attributeName="height" begin="-1.5s" dur="2s" values="100;200;100" repeatCount="indefinite"></animate>
-  </rect>
-  <rect x="180" y="0" width="20" height="60">
-    <animate attributeName="height" begin="-1.8s" dur="2s" values="100;200;100" repeatCount="indefinite"></animate>
-  </rect>
-</svg>
-<svg id="pic5" viewbox="-50 -40 100 100">
-  <rect class="frame_outer" x="-30" y="-20" width="60" height="40"></rect>
-  <rect class="frame_inner" x="-25" y="-15" width="50" height="30"></rect>
-  <rect class="neck" x="-2" y="20" width="4" height="10"></rect>
-  <rect class="bottom" x="-10" y="30" width="20" height="5"></rect>
-  <g class="screen_content">
-    <line x1="-20" y1="0" x2="-8" y2="0"></line>
-    <line x1="-20" y1="5" x2="-2" y2="5"></line>
-    <line x1="-20" y1="10" x2="2" y2="10"></line>
-    <circle cx="10" cy="0" r="6"></circle>
-  </g>
-  <text x="-35" y="50">My computer</text>
-</svg>
+<div class="resume">
+  <div class="base">
+    <div class="profile">
+      <div class="photo"><img src="https://i.imgur.com/MRp5qCR.jpg"/></div>
+      <div class="info">
+        <h4 class="name">鄭俊杰</h4><small class="job">生物資訊分析家</small>
+      </div>
+    </div>
+    <div class="about">
+      <h3>關於我</h3>專注於生物資訊分析。
+    </div>
+    <div class="contact">
+      <h3>電子信箱</h3>
+      <div class="email"><i class="fa fa-envelope"></i><span>v0369012@gmail.com</span></div>
+    </div>
+    <div class="follow">
+      <h3>社群</h3>
+      <div class="box"><a href="https://www.facebook.com/profile.php?id=100002780034121"><i class="fa fa-facebook"></i></a><a href="https://twitter.com/WVKcMTJOYzJWjNa"><i class="fa fa-twitter"></i></a><a href="https://www.flickr.com/photos/zjjisme/" target="_blank"><i class="fa fa-flickr"></i></a><a href="https://www.instagram.com/zjjisme/" target="_blank"><i class="fa fa-instagram"></i></a></div>
+    </div>
+  </div>
+  <div class="func">
+    <div class="work">
+      <h3><i class="fa fa-briefcase"></i>工作經歷</h3>
+      <ul>
+        <li><span>研究助理 (國立交通大學)</span><small>Apr 2019 - Now</small></li>
+      </ul>
+    </div>
+    <div class="edu">
+      <h3><i class="fa fa-graduation-cap"></i>學歷</h3>
+      <ul>
+        <li><span>海洋生物科技暨資源學系 (國立中山大學)</span><small>Sep 2012 - Jun 2016</small></li>
+        <li><span>生物資訊與結構生物研究所 (國立清華大學)</span><small>Sep 2016 - Jul 2018</small></li>
+      </ul>
+    </div>
+    <div class="skills-prog">
+      <h3><i class="fa fa-th-list"></i>技能</h3>
+      <ul>
+        <li><span>1. R語言(資料處理套件 tidyverse, 網頁設計套件 shiny, 串接資料庫套件 RMySQL)</span></li>
+        <li><span>2. 網頁設計語言 HTML & CSS</span></li>
+        <li><span>3. Linux shell command</span></li>
+        <li><span>4. 版本控制軟體 Git & Github</span></li>
+        <li><span>5. 輕量虛擬化技術--容器 Docker & Dockerhub</span></li>
+        <li><span>6. 高效能運算叢集系統 HPC, PBS (Portable Batch System)</span></li>
+      </ul>
+    </div>
+    <div class="skills-prog">
+      <h3><i class="fa fa-code"></i>經驗</h3>
+      <ul>
+        <li data-percent="100"><span>1. 使用 R 語言來開發微生物菌叢 16S rRNA 的分析工具。</span></li>
+        <li data-percent="96"><span>2. 利用 R 語言套件 shiny 以及 HTML & CSS 來設計操作介面。</span></li>
+        <li><span>3. 利用 R 語言套件 tidyverse 來進行資料前處理以及視覺化分析。</span></li>
+        <li><span>4. 使用 Git & Github 管理不斷更新的程式碼。</span></li>
+        <li><span>5. 利用容器技術 Docker 來管理開發環境。此外也編寫 Dockerfile 以製作 images、利用 docker-compose 指令以簡化容器之操作。</span></li>
+        <li><span>6. 利用 PBS 指令操作高效能叢集運算系統以處理龐大計算。</span></li>
+      </ul>
+    </div>
+  </div>
+</div>
 <!-- partial -->
-  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script><script  src="./script.js"></script>
+
 </body>
 </html>
